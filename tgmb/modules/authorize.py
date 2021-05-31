@@ -66,4 +66,3 @@ unauthorize_handler = CommandHandler(command=BotCommands.UnAuthorizeCommand, cal
                                      filters=CustomFilters.owner_filter & Filters.group)
 dispatcher.add_handler(authorize_handler)
 dispatcher.add_handler(unauthorize_handler)
-
