@@ -19,7 +19,7 @@ def ariaDaemonStart():
     dl(os.environ['TRACKERSLIST'], trackerslistName)
     LOGGER.info(f"Generating '{ariaScriptName}'...")
     dat = (
-         f'#!/bin/bash' '\n' '\n'
+        f'#!/bin/bash' '\n' '\n'
         f'aria2c \\' '\n'
         f'   --enable-rpc \\' '\n'
         f'   --rpc-listen-all=false \\' '\n'
